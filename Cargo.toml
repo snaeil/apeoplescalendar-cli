@@ -1,0 +1,16 @@
+[package]
+name = "apeoplescalendar-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Command line tool that uses the online apeoplescalendar API"
+repository = "https://github.com/snaeil/apeoplescalendar-cli"
+license = "GPL-3.0"
+publish = false
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+chrono = { version = "0.4" }
+rand = { version = "0.8" }
+colored = { version = "2.0" }
