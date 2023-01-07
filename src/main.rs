@@ -69,11 +69,11 @@ async fn main() -> Result<(), Error> {
         let day_number = day.parse::<i8>().unwrap();
 
         match month_number {
-            1...12 => print!("{}", 1),
+            1...12 => print!("{}", ""),
             _ => panic!("month must be in range 1-12")
         }
         match day_number {
-            1...31 => print!("{}", 1),
+            1...31 => print!("{}", ""),
             _ => panic!("month must be in range 1-12")
         }
 
